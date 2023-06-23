@@ -1,0 +1,140 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9ec4c4;
+}
+
+/* Header Styles */
+header {
+    background-color: #a0747470;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header img {
+    border-radius: 1000%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: #999;
+}
+
+.text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.text p {
+    font-size: 18px;
+    color: #645e5e;
+}
+
+/* Main Content Styles */
+main {
+    padding: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+section figure {
+    margin: 0;
+    text-align: center;
+}
+
+section img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+section p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Contact Form Styles */
+form {
+    margin-top: 10px;
+    text-align: start;
+}
+
+form fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+form legend {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
